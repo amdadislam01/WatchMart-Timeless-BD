@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "../components/Sections/Home";
-import About from "./About";
+import About from "../components/Sections/About";
 import WatchCategoris from "../components/Sections/WatchCategoris";
 import WatchBrands from "../components/Sections/WatchBrands";
 import Service from "../components/Sections/Service";

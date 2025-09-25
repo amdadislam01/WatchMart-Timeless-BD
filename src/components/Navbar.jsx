@@ -17,11 +17,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`px-[12%] text-white fixed top-0 left-0 w-full z-[999] transition-all duration-300 ${
+      className={`px-[12%]  text-white fixed top-0 left-0 w-full z-[999] transition-all duration-300 ${
         isScrolled ? "bg-[#111111] shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="navbar max-w-7xl py-4 flex items-center justify-between relative">
+      <div className="navbar max-w-7xl  py-4 flex items-center justify-between relative">
         {/* Logo */}
         <Link
           to="/"
