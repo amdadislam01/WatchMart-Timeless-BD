@@ -13,7 +13,7 @@ const WatchTestimonials = () => {
       role: "Smartwatch User",
       img: "https://avatars.githubusercontent.com/u/195456266?v=4",
       review:
-        "The Realme Watch 3 Pro is amazing! The Bluetooth calling feature works perfectly and the battery life is outstanding.",
+        "Best budget smartwatch I have ever bought. GPS and calling features make it feel premium.",
       rating: 5,
     },
     {
@@ -22,7 +22,7 @@ const WatchTestimonials = () => {
       role: "Fitness Enthusiast",
       img: "https://avatars.githubusercontent.com/u/92626624?v=4",
       review:
-        "I use this watch every day for fitness tracking. Accurate results and stylish design. Totally worth the price!",
+        "Best budget smartwatch I have ever bought. GPS and calling features make it feel premium.",
       rating: 5,
     },
     {
@@ -40,7 +40,7 @@ const WatchTestimonials = () => {
       role: "Daily User",
       img: "https://avatars.githubusercontent.com/u/78620963?v=4",
       review:
-        "Perfect for daily use, notifications are clear and the strap is very comfortable to wear all day.",
+        "Best budget smartwatch I have ever bought. GPS and calling features make it feel premium.",
       rating: 5,
     },
     {
@@ -49,7 +49,7 @@ const WatchTestimonials = () => {
       role: "Traveler",
       img: "https://avatars.githubusercontent.com/u/174646838?v=4",
       review:
-        "I travel a lot and this smartwatch helps track my steps, sleep, and calls. Very reliable device!",
+        "Best budget smartwatch I have ever bought. GPS and calling features make it feel premium.",
       rating: 4,
     },
   ];
