@@ -72,11 +72,6 @@ body {
   color: var(--prim-color);
 }
 
-@media screen and (max-width: 991px) {
-  .menu li a::after {
-    opacity: 0;
-  }
-}
 
 /* Hero */
 .hero-slide {
