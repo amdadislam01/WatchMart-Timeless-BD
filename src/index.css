@@ -42,17 +42,12 @@ body {
 .logo span {
   color: var(--prim-color);
 }
-/* Navabr */
-
-.menu {
-  transition: var(--transition-regular) !important;
-}
+/* Navbar Menu Hover Effect */
 .menu li {
   position: relative;
-  z-index: 1;
   display: inline-block;
-  transition: var(--transition-regular);
 }
+
 .menu li a::after {
   content: "";
   position: absolute;
@@ -62,14 +57,21 @@ body {
   height: 2px;
   border-radius: 10px;
   background-color: var(--prim-color);
-  transition: var(--transition-regular);
-  z-index: 1;
+  transition: all 0.3s ease;
 }
+
 .menu li a:hover::after {
   width: 100%;
 }
+
 .menu li a:hover {
   color: var(--prim-color);
+}
+
+@media screen and (max-width: 991px) {
+  .menu li a::after {
+    opacity: 0;
+  }
 }
 
 
