@@ -1,11 +1,11 @@
 import React from "react";
 import Home from "../components/Sections/Home";
-import About from "../components/Sections/About";
 import WatchCategoris from "../components/Sections/WatchCategoris";
 import WatchBrands from "../components/Sections/WatchBrands";
 import Service from "../components/Sections/Service";
 import WatchSection from "../components/Sections/WatchSection";
 import WatchTestimonials from "../components/Sections/WatchTestimonials ";
+import Abouts from "../components/Sections/Abouts";
 
 const Index = () => {
   return (
@@ -13,7 +13,7 @@ const Index = () => {
       {/* Hero Section */}
       <Home />
       {/* About Section */}
-      <About />
+      <Abouts />
       {/* Watch Categories */}
       <WatchCategoris />
       {/* Watch Brands */}

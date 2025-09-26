@@ -1,6 +1,6 @@
 import React from "react";
 import about from "../../assets/about.png";
-const About = () => {
+const Abouts = () => {
   return (
     <div className="about text-white lg:px-[10%] px-[8%] py-[50px] lg:py-[90px]">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
@@ -48,4 +48,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Abouts;
