@@ -6,6 +6,7 @@ import Index from './pages/Index'
 import About from './pages/About'
 import Watch from './pages/Watch'
 import WatchDetails from './pages/WatchDetails'
+import Contact from './pages/Contact'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='/About' element={<About />} />
           <Route path='/Watch' element={<Watch />} />
           <Route path='/watch/:id' element={<WatchDetails />} />
+          <Route path='/Contact' element={<Contact />} />
         </Routes>
         <Footer />
       </Router>

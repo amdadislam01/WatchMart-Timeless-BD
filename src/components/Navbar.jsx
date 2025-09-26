@@ -54,7 +54,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/"
-              className="text-lg transition px-4 py-2 lg:px-0 lg:py-0 font-normal bricolage-font"
+              className="text-lg transition px-4 py-2 lg:px-4 lg:py-0 font-normal bricolage-font"
             >
               Home
             </Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/about"
-              className="text-base lg:text-lg transition px-4 py-2 lg:px-0 lg:py-0 font-normal bricolage-font"
+              className="text-base lg:text-lg transition px-4 py-2 lg:px-4 lg:py-0 font-normal bricolage-font"
             >
               About
             </Link>
@@ -70,23 +70,15 @@ const Navbar = () => {
           <li>
             <Link
               to="/watch"
-              className="text-base lg:text-lg transition px-4 py-2 lg:px-0 lg:py-0 font-normal bricolage-font"
+              className="text-base lg:text-lg transition px-4 py-2 lg:px-4 lg:py-0 font-normal bricolage-font"
             >
               Watch
             </Link>
           </li>
           <li>
             <Link
-              to="/blog"
-              className="text-base lg:text-lg transition px-4 py-2 lg:px-0 lg:py-0 font-normal bricolage-font"
-            >
-              Blog
-            </Link>
-          </li>
-          <li>
-            <Link
               to="/contact"
-              className="text-base lg:text-lg transition px-10 py-2 lg:px-0 lg:py-0 font-normal bricolage-font"
+              className="text-base lg:text-lg transition px-10 py-2 lg:px-4 lg:py-0 font-normal bricolage-font"
             >
               Contact
             </Link>
