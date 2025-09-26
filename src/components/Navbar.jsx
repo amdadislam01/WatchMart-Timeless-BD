@@ -21,7 +21,7 @@ const Navbar = () => {
         isScrolled ? "bg-[#111111] shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="navbar max-w-7xl  py-4 flex items-center justify-between relative">
+      <div className="navbar max-w-[1450px]  py-4 flex items-center justify-between relative">
         {/* Logo */}
         <Link
           to="/"
@@ -43,8 +43,8 @@ const Navbar = () => {
 
         {/* Menu Items */}
         <ul
-          className={`menu flex-col lg:flex lg:flex-row absolute lg:static top-full left-0 w-full lg:w-auto 
-          bg-black lg:bg-transparent z-50 gap-2 lg:gap-14 text-sm font-medium 
+          className={`menu flex-col lg:flex lg:flex-row absolute lg:static top-full left-0  lg:w-auto 
+          bg-black lg:bg-transparent z-50 gap-2 lg:gap-10 text-sm font-medium 
           transition-all duration-300 ease-in-out 
           space-y-5 lg:space-y-0 overflow-hidden
           ${

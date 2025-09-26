@@ -37,7 +37,7 @@ const Watch = () => {
             key={watch.id}
           >
             {/* Image */}
-            <div className="watch-image w-full relative h-[260px] overflow-hidden flex justify-center items-center bg-black/40">
+            <div className="watch-image w-full relative h-[260px] overflow-hidden rounded-t-2xl flex justify-center items-center bg-black/40">
               <img
                 src={watch.image}
                 alt={watch.name}

@@ -36,11 +36,11 @@ const WatchSection = () => {
             key={watch.id}
           >
             {/* Image */}
-            <div className="watch-image w-full relative h-[260px] overflow-hidden flex justify-center items-center bg-black/40">
+            <div className="watch-image w-full relative h-[260px] overflow-hidden rounded-t-2xl flex justify-center items-center bg-black/40">
               <img
                 src={watch.image}
                 alt={watch.name}
-                className="h-max w-full object-cover  drop-shadow-lg group-hover:scale-110 transition-all duration-500"
+                className="h-max w-full object-cover   drop-shadow-lg group-hover:scale-110 transition-all duration-500"
               />
               <span className="absolute top-4 left-4 bg-[#FA8703] text-white text-xs px-4 py-1 rounded-full uppercase tracking-wide">
                 {watch.type}
