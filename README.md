@@ -8,6 +8,7 @@
 
 ---
 
+
 ## ⚡ Overview
 
 WatchMart Timeless BD is a **frontend-only web application** designed for a modern watch store. The project showcases elegant product listings, product detail pages, and a smooth shopping cart flow (frontend UI only). It is built with **React.js (Vite)**, **Tailwind CSS**, **Bootstrap**, **React Icons**, and JavaScript, providing a responsive and polished shopping experience.
